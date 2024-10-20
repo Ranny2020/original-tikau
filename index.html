@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tikau Emirate</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Tikau Emirate Council</h1>
+        <nav>
+          <div class="burger" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list" id="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Rulers of Tikau</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Tafis Ramadan 1433AH</a></li>
+            <li>
+              <a href="#">More &#9660;</a>
+              <ul class="dropdown">
+                <a href="#">Gallery</a>   
+                <a href="#">History</a>   
+                <a href="#">Location</a   >
+              </ul>
+            </li>
+          </ul>
+          <form id="search-form">
+            <input
+              type="search"
+              id="search-input"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+            <button type="submit" id="search-button">Go</button>
+          </form>
+        </nav>
+      </div>
+    </header>
+    <div class="hero">
+        <h2 class="official"> WELCOME TO TIKAU EMIRATE OFFICIAL WEBSITE </h2>
+        <p class="like">
+          We are delighted to extend a warm greeting to you, on behalf of the Emir of the Emirate. 
+           <br> Our official website serves as a comprehensive resource hub designed to provide you with easy access to essential information,
+           services and updates.
+    </div>
+
+    <main>
+      <!-- <div class="sidebar">
+      <p>Left Sidebar</p>
+    </div> -->
+
+      <div class="sidebar">
+        <h3><span class="rate">Emirate</span> Menu</h3>
+        <div class="emirate-cards">
+          <ul>
+          <div class="card"><li><a href="tikaustory.html">Tikau Story</a></li></div>
+          <div class="card"><li><a href="introduction.html">Introduction to Tikau</a></li></div>
+          <div class="card"><a href="#">Activities of the Council</a></div>
+          <div class="card"><a href="#">Brief History</a></div>
+          <div class="card"><a href="#">Tikau Museum</a></div>
+          <div class="card"><a href="#">Educational Institutions</a></div>
+          <div class="card"><a href="#">Festivals and Ceremonies</a></div>
+          <div class="card"><a href="#">Tourism Attraction</a></div>
+          <div class="card"><a href="#">Palace Courtiers</a></div>
+          <div class="card"><a href="#">Structure of the Council</a></div>
+          <div class="card"><a href="#">Rulers of Tikau</a></div>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content">
+
+        <div class="main-content">
+            <h2 class="shift">Present Emir of Tikau Emirate </h2>
+            <p class="para">
+              <img
+                class="image"
+                src="images/tika.png"
+                alt="The Emir of Tikau Emirate"
+              />
+              <b>ALHAJI ABUBAKAR MUHAMMADU IBN GREMA</b>, The eldest of Alh. Dr. Muhammadu Abubakar Ibn Grema, the late Emir of Tikau.
+              Alhaji Abubakar Muhammadu Ibn Grema has a Bachelor of Agric Economics & Extension, from Bayero University Kano,an MSc in Agric Economics
+              (Applied Econometrics, Development and Resource Economics) and a PhD (inview) in Rural Development. He has worked in various capacities
+              at Yobe state University.
+              Before his appointment, Abubakar Muhammadu Ibn Gream, was the Principal Manager, at Yobe State University Farm.
+            </p>
+            <div class="button-container">
+              <button class="learn-more-btn">
+                <a href="#"class="link-down"> Explore </a>
+              </button>
+            </div>
+          </div>
+
+
+          
+        
+      </div>
+
+      <div class="sidebar">
+        <h3><span class="rate">Most</span>Recent Articles</h3>
+        <div class="emirate-cards">
+          <div class="card">
+            <a href="#">BRIEF HISTORY OF TIKAU EMIRATE </a>
+          </div>
+          <div class="card">
+            <a href="#">STRUCTURE OF THE EMIRATE COUNCIL</a>
+          </div>
+          <div class="card"><a href="#">INTRODUCTION</a></div>
+          <div class="card">
+            <a href="#">FESTIVALS AND CEREMONIES IN TIKAU EMIRATE</a>
+          </div>
+          <div class="card">
+            <a href="#">ACTIVITIES OF TIKAU EMIRATE COUNCIL</a>
+          </div>
+        </div>
+
+        <div style="margin: 2vh 0vh">
+          <h3><span class="rate"></span>Latest News</h3>
+          <div class="emirate-cards">
+            <div class="card"><a href="#">News Article 1 </a></div>
+            <div class="card"><a href="#">News Article 2</a></div>
+            <div class="card"><a href="#">News Article 3</a></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 TIKAU EMIRATE. ALL RIGHTS RESERVED. </p>
+    </footer>
+
+    <script >
+ const burger = document.getElementById('burger');
+const navList = document.getElementById('nav-list');
+
+burger.addEventListener('click', () => {
+  navList.classList.toggle('active');
+});
+    </script>
+  </body>
+</html>
